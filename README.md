@@ -8,6 +8,7 @@ A high-performance, full-stack **MEVN** (MongoDB, Express, Vue 3, Node.js) Kanba
 
 * **Drag-and-Drop Workflow**: Intuitive task management across "To Do", "In Progress", and "Done" states using `vuedraggable`.
 * **Clean Architecture**: Separation of concerns achieved by moving styling logic to a dedicated `kanban.css` file.
+* **Glassmorphism Design:** Premium "frosted glass" effects for cards, columns, and headers, optimized for high contrast and readability.
 * **Dynamic Theme Engine**: Smooth 1-second transitions between "Dark mode" and "Light mode" backgrounds.
 * **Glassmorphic UI**: Semi-transparent column containers utilizing `backdrop-blur-md` and rim-lighting for high contrast against complex backgrounds.
 
@@ -19,7 +20,18 @@ A high-performance, full-stack **MEVN** (MongoDB, Express, Vue 3, Node.js) Kanba
 * **Frontend**: Vue 3 (Composition API), Vite, Tailwind CSS.
 * **Backend**: Node.js, Express.js.
 * **Database**: MongoDB via Mongoose ODM.
+* **VueDraggable:** For smooth, touch-responsive drag-and-drop.
 * **API**: RESTful architecture with Axios communication.
+
+### Frontend
+* **Vue.js 3:** Composition API for modern, reactive state management.
+* **Tailwind CSS:** For rapid, utility-first styling.
+* **VueDraggable:** For smooth, touch-responsive drag-and-drop.
+* **Axios:** For handling asynchronous API requests.
+
+### Backend
+* **Node.js & Express:** Robust server-side logic and routing.
+* **MongoDB & Mongoose:** Scalable NoSQL database and schema modeling.
 
 ---
 
