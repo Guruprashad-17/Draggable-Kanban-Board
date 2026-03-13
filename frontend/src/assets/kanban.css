@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Immersive Background Transitions */
+.bg-layer {
+  @apply fixed inset-0 -z-50 overflow-hidden;
+}
+
+.bg-image {
+  @apply absolute inset-0 w-full h-full bg-cover bg-center transition-all duration-1000;
+}
+
+/* Glassmorphic Column Containers */
+.glass-column {
+  @apply min-h-[550px] rounded-[2.5rem] p-5 border transition-all duration-300 backdrop-blur-md shadow-2xl;
+}
+
+.glass-dark {
+  @apply bg-white/10 border-white/20 shadow-black/40;
+}
+
+.glass-light {
+  @apply bg-black/5 border-black/10 shadow-gray-400/20;
+}
+
+/* Task Cards */
+.task-card {
+  @apply p-5 rounded-2xl mb-4 shadow-xl border transition-all cursor-grab active:cursor-grabbing hover:scale-[1.02];
+}
+
+.card-dark {
+  @apply bg-slate-900/90 border-slate-700 text-white;
+}
+
+.card-light {
+  @apply bg-white border-gray-100 text-slate-900;
+}
